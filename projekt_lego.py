@@ -78,7 +78,7 @@ class Lego_Registration(unittest.TestCase):
         assert len(visible_errors) == 1
         # Sprawdzam tresc bledu
         # print(visible_errors[0].text)
-        assert visible_errors[0].text=="Adres e-mail jest nieprawidlowy"
+        assert visible_errors[0].text=="Adres e-mail jest nieprawidłowy"
 
         # Sprzatam po tescie.
         def tearDown(self):
