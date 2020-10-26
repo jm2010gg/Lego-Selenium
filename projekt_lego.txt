@@ -1,0 +1,26 @@
+Scenariusz testowy:
+Rejestracja nowego uzytkownika na stronie https://www.lego.com/pl-pl
+
+Warunki wstepne:
+Przegladarka otwarta na stronie https://www.lego.com/pl-pl
+
+Przypadek testowy nr 1:
+Bledny adres e-mail (brak znaku '.').
+
+Kroki:
+1.Kliknij 'Dalej'.
+2.Akcetuj pliki cookie.
+3.Kliknij 'Konto'.
+4.Kliknij 'Zarejestruj sie'.
+5.Wprowadz adres e-mail.
+6.Wpisz haslo.
+7.Wpisz date urodzenia.
+8.Wybierz kraj i region.
+9.Akceptuj warunki korzystania.
+
+
+
+.
+
+Oczekiwany rezultat:
+1. Uzytkownik dostaje informacje 'Adres e-mail jest nieprawidlowy'.
